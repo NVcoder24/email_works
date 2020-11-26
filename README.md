@@ -11,7 +11,6 @@ It must looks like this:
 import email_works
 ```
 ## Change message information
-###### Works only on NT!
 ```python
 email_works.sender = "your@gmail.com"        # your email
 email_works.receiver = "somebody@gmail.com"  # receiver email
@@ -25,6 +24,9 @@ header="Email_works test 1",   # header of message
 text="Hello, world!",          # message text
 )
 ```
+It looks like this:
+
+![example](email1.png)
 
 ## Send message with html
 ```python
@@ -39,3 +41,6 @@ html="""
 """                            # some html
 )
 ```
+It looks like this:
+
+![example](email2.png)
