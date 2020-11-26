@@ -4,6 +4,11 @@ Uses ssl connection on port 465
 
 ## Install important libraries
 ###### All tested on python 3.8.5
+Update pip
+```shell
+python -m pip install --upgrade pip
+```
+Install libraries
 ```shell
 pip install smtplib
 pip install email
