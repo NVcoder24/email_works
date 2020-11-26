@@ -1,5 +1,6 @@
 # email_works
-Easy module for working with mail based on smpt and gmail
+Easy module for working with mail based on smpt and gmail<br>
+Uses ssl connection on port 465
 
 ## Import this module
 ###### 1. put email_works.py in derictory with your main file
@@ -44,3 +45,9 @@ html="""
 It looks like this:
 
 ![example](email2.png)
+
+## How to check emails and your password
+```python
+print("your mail: {sender}\nreceiver mail: {receiver}\npassword: {password}".format(sender=email_works.sender, receiver=email_works.receiver, password=email_works.password))
+)
+```
