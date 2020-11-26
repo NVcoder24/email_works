@@ -2,6 +2,13 @@
 Easy module for working with mail based on smpt and gmail<br>
 Uses ssl connection on port 465
 
+## Install important libraries
+###### All tested on python 3.8.5
+```shell
+pip install smtplib
+pip install email
+```
+
 ## Import this module
 ###### 1. put email_works.py in derictory with your main file
 It must looks like this:
