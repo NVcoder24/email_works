@@ -49,5 +49,4 @@ It looks like this:
 ## How to check emails and your password
 ```python
 print("your mail: {sender}\nreceiver mail: {receiver}\npassword: {password}".format(sender=email_works.sender, receiver=email_works.receiver, password=email_works.password))
-)
 ```
