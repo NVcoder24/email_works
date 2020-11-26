@@ -1,2 +1,2 @@
 # email_works
-Easy module for working wiyh mail
+Easy module for working with mail
