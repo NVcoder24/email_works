@@ -22,7 +22,7 @@ email_works.password = "your_password_here"  # your password
 ```python
 email_works.send(
 header="Email_works test 1",   # header of message
-text="Hello, world!",        # message text
+text="Hello, world!",          # message text
 )
 ```
 
@@ -36,6 +36,6 @@ html="""
     <a href="https://github.com/NVcoder24/email_works">Email works on github</a>
   </body>
 </html>
-"""                          # some html
+"""                            # some html
 )
 ```
