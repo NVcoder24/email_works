@@ -58,6 +58,26 @@ It looks like this:
 
 ![example](email2.png)
 
+## Send message with website page (BETA)
+```python
+email_works.send(
+header="Email_works test 2",                    # header of message
+url="https://github.com/NVcoder24/email_works"  # url to web page
+)
+```
+###### JS and other things will not working
+
+## Logginh
+In default it turned off
+###### On
+```python
+email_works.logging = True  # turn on logging
+```
+###### Off
+```python
+email_works.logging = False  # turn off logging
+```
+
 ## How to check emails and your password
 ```python
 print("your mail: {sender}\nreceiver mail: {receiver}\npassword: {password}".format(sender=email_works.sender, receiver=email_works.receiver, password=email_works.password))
