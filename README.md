@@ -69,7 +69,7 @@ url="https://github.com/NVcoder24/email_works"  # url to web page
 ```
 ###### JS and other things will not working
 
-## Logginh
+## Logging
 In default it turned off
 ###### On
 ```python
