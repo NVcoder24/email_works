@@ -12,6 +12,8 @@ Install libraries
 ```shell
 pip install smtplib
 pip install email
+pip install urllib
+pip install datetime
 ```
 
 ## Import this module
