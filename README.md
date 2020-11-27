@@ -64,7 +64,7 @@ It looks like this:
 ```python
 email_works.send(
 header="Email_works test 2",                    # header of message
-url="https://github.com/NVcoder24/email_works"  # url to web page
+url="https://github.com/NVcoder24/email_works"  # url to the web page
 )
 ```
 ###### JS and other things will not working
