@@ -73,7 +73,7 @@ url="https://github.com/NVcoder24/email_works"  # url to the web page
 In default it turned off
 ###### On
 ```python
-email_works.logging = True  # turn on logging
+email_works.logging = True   # turn on logging
 ```
 ###### Off
 ```python
