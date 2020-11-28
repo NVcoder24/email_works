@@ -61,6 +61,9 @@ It looks like this:
 ![example](email2.png)
 
 ## Send message with website page (BETA)
+This method extract html from web page deletes all trash and display it as html.<br>
+It works bad currently<br>
+I use this way because <iframe> is disabled in email
 ```python
 email_works.send(
 header="Email_works test 2",                    # header of message
