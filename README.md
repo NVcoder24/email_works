@@ -61,7 +61,7 @@ It looks like this:
 ![example](email2.png)
 
 ## Send message with website page (BETA)
-This method extract html from web page deletes all trash and display it as html.<br>
+This method extract html from web page and deletes all trash and display it as html.<br>
 It works bad currently<br>
 I use this way because <iframe> is disabled in email
 ```python
