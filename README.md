@@ -40,3 +40,8 @@ ew.send_text(header="Hello, world!", text="some text...", receiver="somebody@gma
 ```python
 ew.send_html(header="Hello, world!", html="<a href='google.com'>some html...</a>", receiver="somebody@gmail.com")
 ```
+
+## Log off'
+```
+ew.logoff()
+```
