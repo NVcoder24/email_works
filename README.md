@@ -21,7 +21,7 @@ pip install email
 ```python
 from email_works import email_works
 ```
-## Creating variable for email works
+## Create variable for email works
 ```python
 ew = email_works()
 ```
