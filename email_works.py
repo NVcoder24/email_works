@@ -8,13 +8,16 @@ class email_works:
     data = {}
     debug = True
 
-    def __init__(self):
+    def default(self):
         self.data = {
-        "context": ssl.create_default_context(),
-        "sender": None,
-        "password": None,
-        "logged": False
+            "context": ssl.create_default_context(),
+            "sender": None,
+            "password": None,
+            "logged": False
         }
+
+    def __init__(self):
+        self.default()
 
     def debug(self, data=False):
         self.debug = data
@@ -30,6 +33,9 @@ class email_works:
             if self.debug:
                 print(f"error was handled in login(): {e}")
             return e
+
+    def logoff(self):
+        self.default()
 
     def send(self, data):
         if self.check_data(self.data) == True:
@@ -84,9 +90,4 @@ class email_works:
             self.send(info)
         else:
             if self.debug:
-                print("you need to login first!")
-
-            self.send(info)
-        else:
-            if self.debug == True:
                 print("you need to login first!")
